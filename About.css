@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Kalnia:wght@400;500;600;700&family=Roboto:wght@400;700&family=Rubik+Scribble&family=Saira+Extra+Condensed:wght@200;300;400;500;600;700&family=Shizuru&display=swap');
+*
+{
+    margin: 0;
+    padding:0 ;
+}
+#About-Wrapper
+{
+    min-height: 100vh;
+   background-image: url(AboutPage/sun.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.About-header
+{
+    margin: 8rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: rgba(223, 221, 221, 0.295);
+    color: white;
+    padding: 20px 0;
+    backdrop-filter: blur(10px);
+}
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    background-color: rgba(156, 154, 154, 0.404);
+   backdrop-filter: blur(8px);
+    max-width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    border-radius: 30px;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    column-gap:20px;
+    min-width: 300px;
+}
+.content img
+{
+width: 400px;
+border-radius: 20px;
+
+}
+.description
+{
+    max-width: 700px;
+}
+.description h4
+{
+    max-width: 100%;
+    text-align:center;
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid red;
+   
+}
+.description p
+{
+    font-size: 20px;
+    font-family: Arial;
+}
+@media (max-width:600px) {
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+        margin-left: -25px;
+    }
+    #Slayers .thumbnail
+    {
+        display: none;
+    }
+    .content img
+    {
+        width: 300px;
+    }
+}
+@media (max-width:900px) {
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .About-Image
+    {
+        width:350px ;
+        margin: auto;
+    }
+}
+@media (max-width:1600px) {
+    .content
+    {
+        display: flex;
+    }
+    .About-Image
+    {
+        max-width:350px ;
+        margin: auto;
+
+    }
+    .wrapper
+    {
+        padding: 60px;
+        margin-top: 30dvh;
+    }
+}
+@media (min-width:2200px) {
+    .wrapper
+    {
+        max-width: 55%;
+    }
+}

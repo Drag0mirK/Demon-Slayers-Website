@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Kalnia:wght@400;500;600;700&family=Roboto:wght@400;700&family=Saira+Extra+Condensed:wght@200;300;400;500;600;700&family=Shizuru&display=swap');
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body
+{
+    background-image: url(Contact&Sign/1329815.jpeg);
+    background-position: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Kalnia',sans-serif;
+}
+.top-bar-menu
+{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(48, 94, 219, 0.342);
+    backdrop-filter: blur(10px);
+    height: 100px;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.logo
+{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 10px 20px;
+}
+.last-symbols
+{
+    color: rgb(73, 27, 0);
+    font-size: 2.3rem;
+}
+.navigation-bar
+{
+    display: flex;
+    column-gap: 40px;
+    margin-right:2rem;
+}
+.Bigger-Screen-Version
+{
+    list-style: none;
+}
+.Bigger-Screen-Version a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s ease-in;
+}
+.Bigger-Screen-Version a:hover
+{
+    border-bottom: solid 1px rgb(30, 126, 204);
+    transition: 0.5s ease-in-out;
+}
+.Bigger-Screen-Version a:active
+{
+    color: grey;
+    border-bottom: none;
+    font-size: 17px;
+    transition: 0.15s;
+}
+.open-button
+{
+    display: none;
+    list-style: none;
+}
+.Sign-up
+{
+    height: 30px;
+    width: 100px;
+    color: rgb(5, 73, 161);
+    background-color: rgb(204, 204, 204);
+    border: 1px solid rgb(5, 73, 161);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease-in;
+}
+.Sign-up:hover 
+{
+    color: white;
+    box-shadow: 0 0 20px rgba(5, 36, 104, 0.6);
+    background-color: rgb(9, 36, 158);
+    cursor: pointer;
+    font-weight: 600;
+}
+.side-navigatio-bar
+{   
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.39);
+    backdrop-filter: blur(10px);
+    height:100%;
+    width: 250px;
+    z-index: 999;
+}
+.sidebar-menu
+{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.sidebar-menu .Sign-up-sidebar
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Smaller-Screen-Version
+{
+    width: 100%;
+    list-style: none;
+    height: 30px;
+    text-align: center;
+}
+.Smaller-Screen-Version a
+{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s ease-in;
+}
+.Smaller-Screen-Version:hover
+{
+    background-color: rgba(148, 147, 147, 0.459);
+    transition: 0.5s;
+    border-bottom: solid 1px lightblue;
+}
+.Smaller-Screen-Version a:hover
+{
+    
+    transition: 0.5s ease-in-out;
+}
+.close-button
+{
+    margin: 10px 10px;
+    list-style: none;
+}
+.Sign-up-sidebar
+{
+    height: 30px;
+    width: 100px;
+    color: rgb(5, 73, 161);
+    background-color: rgb(204, 204, 204);
+    border: 1px solid rgb(5, 73, 161);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease-in;
+}
+.Sign-up-sidebar:hover
+{
+    color: white;
+    box-shadow: 0 0 20px rgba(5, 36, 104, 0.6);
+    background-color: rgb(9, 36, 158);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.wrapper
+{
+    width: 350px;
+    padding: 2rem 1rem;
+    margin: 13rem auto;
+    background-color: #ffffff81;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.wrapper h1
+{
+    font-size: 3rem;
+    color: rgba(6, 74, 199, 0.849);
+    margin-bottom: 1.2rem;
+}
+form input
+{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #dbd9d9;
+}
+.button-sign
+{
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(9, 117, 160);
+    transition: 0.7s;
+}
+.button-sign:hover
+{
+    border: 2px solid rgb(9, 117, 160);
+    background-color: #fff;
+    color: rgb(3, 67, 92);;
+}
+.terms
+{
+    margin-top: 0.2rem;
+}
+.terms input
+{
+    height: 1em;
+    width: 1em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label
+{
+font-size:0.9rem;
+}
+.terms a
+{
+    color: rgb(9, 117, 160);
+    text-decoration: none;
+}
+.member
+{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color: #636363;
+}
+.member a
+{
+    color: rgb(4, 65, 88);
+    text-decoration: none;
+}
+.recover
+{
+text-align: right;
+font-size: 0.8rem;
+margin: 0.3rem 1.4rem 0 0;
+}
+.recover a
+{
+    text-decoration: none;
+    color: rgb(33, 129, 218);
+}
+@media (max-width:2785px) {
+    body
+    {
+        background-position: 55%;
+    }
+}
+@media (max-width : 1398px)
+{
+    .open-button
+    {
+        display: none;
+    }
+    body
+    {
+        background-position: 55%;
+    }
+}
+
+@media  (max-width:900px)
+{
+    .Bigger-Screen-Version
+    {
+        display: none;
+    }
+    .open-button
+    {
+        display: flex;
+    }
+    .Sign-up
+    {
+        display: none;
+    }
+    body
+    {
+        background-position: 55%;
+    }
+}
+
+@media (max-width:601px) 
+{
+    .Bigger-Screen-Version
+    {
+        display: none;
+    }
+    .open-button
+    {
+        display: flex;
+    }
+    .Sign-up
+    {
+        display: none;
+    }
+    body
+    {
+        background-position: 55%;
+    }
+}
+@media (max-width:418px) {
+    .side-navigatio-bar
+    {
+        width: 100%;
+    }
+    .open-button
+    {
+        display: flex;
+    }
+    .Sign-up
+    {
+        display: none;
+    }
+    body
+    {
+        background-position: 55%;
+    }
+
+}
+
