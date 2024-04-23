@@ -1,0 +1,130 @@
+#Contacts
+{
+    background-color: #141414;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.Contact-btn
+{
+    padding: 20px 40px;
+    border-radius: 5px;
+    border:solid 2px white ;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.027);
+    transition: 0.7s;
+    display: flex;
+}
+.Contact-btn:hover
+{
+    background-color: red;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.Contact-btn a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.inform-holder
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.socials
+{
+    margin-top: 40px;
+}
+.socials ul li:hover
+{
+    border-bottom: 1px solid red;
+    margin-top: -10px;
+}
+.socials ul 
+{
+    display: flex;
+    column-gap: 60px;
+    font-size: 30px;
+}
+.socials ul li
+{
+    list-style: none;
+    transition: 0.6s;
+}
+.links
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.website-links
+{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.website-links ul
+{
+    display: flex;
+    column-gap: 20px;
+}
+.website-links ul li
+{
+    list-style: none;
+    color: rgb(190, 186, 186);
+    font-size: 16px;
+}
+.website-links ul .left-border
+{
+    transition: 0.6s;
+}
+.left-border:hover
+{
+    border-left:1px solid red;
+    padding-left: 4px;
+    cursor: pointer;
+}
+.website-links ul li:active
+{
+    color: rgb(95, 94, 94);
+    transition: 0.15s;
+}
+.terms-policy
+{
+    margin-bottom: 15px;
+}
+.terms-policy ul
+{
+    display: flex;
+    column-gap: 25px;
+    justify-content: stretch;
+}
+.terms-policy ul li
+{
+    list-style: none;
+    color: rgb(190, 186, 186);
+    font-size: 16px;
+    transition: 0.6s;
+}
+.terms-policy ul li:hover
+{
+    border-bottom:2px solid red;
+    cursor: pointer;
+}
+.terms-policy ul li:active
+{
+    color: rgb(95, 94, 94);
+    transition: 0.15s;
+}
+.agreements p
+{
+    color: rgb(80, 79, 79);
+    text-align: center;
+
+}
